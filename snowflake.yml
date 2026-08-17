@@ -1,0 +1,14 @@
+definition_version: 2
+entities:
+  exploracao_carteira:
+    type: streamlit
+    identifier:
+      name: EXPLORACAO_DE_CARTEIRA
+      schema: STREAMLIT
+      database: XXXX
+    stage: STREAMLIT
+    query_warehouse: XXXXX
+    main_file: streamlit_app.py
+    artifacts:
+      - streamlit_app.py
+      - environment.yml
